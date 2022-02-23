@@ -15,6 +15,7 @@ typedef NS_OPTIONS(NSUInteger, AspectOptions) {
     AspectOptionAutomaticRemoval = 1 << 3 /// Will remove the hook after the first execution.
 };
 
+// Comment: 
 /// Opaque Aspect Token that allows to deregister the hook.
 @protocol AspectToken <NSObject>
 
